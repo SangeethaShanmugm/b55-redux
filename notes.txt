@@ -1,0 +1,10 @@
+redux  => state management tool => complex 
+
+Types
+------
+1. redux
+2. redux-toolkit
+3. redux-persist
+4. redux-thunk
+5. redux-saga
+

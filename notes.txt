@@ -8,3 +8,35 @@ Types
 4. redux-thunk
 5. redux-saga
 
+packages
+---------
+redux => enable the redux architecture(core library)
+react-redux => connect react components to redux store
+redux-toolkit => maintainability, organized
+
+Redux Terminology
+----------------
+
+store => manage all the states => global object 
+action  => CRUD Operation
+reducer => what to add  => function => current state and action Types
+dispatch  =>get updated state
+
+Redux-Toolkit Terminology
+---------------------------
+Reducer  + action  => createSlice(method)
+setup redux store => configureStore(pass reducer, combine reducer)
+
+steps
+------
+
+1. Define the store => configureStore()
+2. Define the reducer + action  => createSlice()
+3. select(state) => useSelector && select(action) => useDispatch
+
+Benefits
+----------
+1. centralized state management => store => complex
+2. get updated states
+3. debug => redux devTool chrome extension 
+4. performance
